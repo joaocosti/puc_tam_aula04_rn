@@ -52,12 +52,17 @@ O projeto está estruturado da seguinte forma:
 
 Para executar os testes, siga os passos abaixo:
 
-1. Instale as dependências:
+1. Utilize o node 18:
+    ```bash
+    nvm use 18
+    ```
+
+2. Instale as dependências:
     ```bash
     npm install
     ```
 
-2. Execute os testes:
+3. Execute os testes:
     ```bash
     npm test
     ```
